@@ -16,6 +16,7 @@ home = [ "HTML", "RSS", "JSON"]
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
+  ignoreLogs = ['warning-goldmark-raw-html']
   
 [Languages]
 [Languages.en]
@@ -39,4 +40,5 @@ name = "<i class='fab fa-facebook'></i> AWS Study Group"
 identifier = "AWS Study Group FB"
 url = "https://www.facebook.com/groups/awsstudygroupfcj/"
 weight = 20
+
 

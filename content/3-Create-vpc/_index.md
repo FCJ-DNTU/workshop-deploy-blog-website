@@ -1,9 +1,9 @@
 +++
-title = "MFA for AWS Accounts"
-date = 2021
-weight = 2
+title = "Prepare VPC"
+date = 2025
+weight = 3
 chapter = false
-pre = "<b>2. </b>"
+pre = "<b>3. </b>"
 +++
 
 For increased security, we recommend that you configure multi-factor authentication (MFA) to help protect your AWS resources.

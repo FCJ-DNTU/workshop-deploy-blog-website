@@ -5,7 +5,7 @@ weight = 1
 chapter = false
 +++
 
-# Deploy Blog Web on AWS
+# WORKSHOP: DEPLOYING A BLOG WEBSITE ON AWS
 
 #### Overview
 In this first lab, you will be creating your new **AWS** account and use Multi-factor Authentication (**MFA**) to improve your account security. Next, you will create an **Administrator Group** and **Admin User** to manage access to resources in your account instead of using the root user. \

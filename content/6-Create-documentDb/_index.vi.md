@@ -1,9 +1,9 @@
 +++
-title = "MFA cho Tài khoản AWS"
-date = 2021
-weight = 2
+title = "Khởi tạo AWS DocumentDB Service"
+date = 2025
+weight = 6
 chapter = false
-pre = "<b>2. </b>"
+pre = "<b>6. </b>"
 +++
 
 Trong bước ngày, bạn có sử dụng ba thiết bị MFA khác nhau.  

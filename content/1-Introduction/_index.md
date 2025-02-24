@@ -1,5 +1,5 @@
 +++
-title = "Hello world"
+title = "Introduction"
 date = 2020-05-14T00:38:32+07:00
 weight = 1
 chapter = false
@@ -50,4 +50,4 @@ On the Payment Information page, enter the information about your payment method
 
 After you choose a Support plan, a confirmation page indicates that your account is being activated. Accounts are usually activated within a few minutes, but the process might take up to 24 hours. \
 You can sign in to your AWS account during this time. The AWS home page might display a Complete Sign Up button during this time, even if you've completed all the steps in the sign-up process. \
-Once your account is fully activated, you will receive a confirmation email. Check your email and spam folder for the confirmation email. After you receive this email, you have full access to all AWS services.
+Once your account is fully activated, you will receive a confirmation email. Check your email and spam folder for the confirmation email. After you receive this email, you have full access to all AWS services.d
