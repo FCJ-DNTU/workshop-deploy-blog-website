@@ -1,16 +1,16 @@
 # Deploying a Fullstack Blog Website on AWS EC2 with DocumentDB, CloudFront & S3
 
-This is a simple blog application built using **Go (Golang)** and deployed on **AWS EC2** with **AWS RDS** for **MySQL** and **S3** for storage.
+This is a Fullstack Blog Website built using Nodejs, ReactJs, ExpressJs, deployed on and AWS using **EC2**, leverage **DocumentDB** as a NoSQL database, and optimize performance and costs with **CloudFront**.
 
 ## Features 
-- **Client**
+**Client**
   - [x] User Account Creation (Optional)
   - [x] Post Categories
   - [x] Pagination with Page Numbers
   - [x] Commenting on Posts (Only Available to Signed-in Users)
   - [x] Dark and Light Theme Settings
 
-- **Admin**
+**Admin**
   - [x] Account Creation
   - [x] Email Verification with OTP
   - [x] Create Posts, Delete Posts, Enable or Disable Posts
