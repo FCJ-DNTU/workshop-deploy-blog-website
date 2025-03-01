@@ -46,6 +46,8 @@ chúng ta sẽ tạo policy để hạn chế user chỉ có thể tương tác 
   ]
 }
 ```
+![Specify permissions.png](/images/2-restrict-access/2.4.png)
+
 {{% notice note %}}
 Cho phép user sử dụng các thao tác của EC2 chỉ trong region ap-southeast-1
 {{% /notice %}}
