@@ -46,4 +46,4 @@ pre: "<b>3.3 </b>"
        ![create-subnet-group.png](/images/3-create-vpc-instance/3.3-create-db-sg/3.3.2.png)
 
 6. Nhấn nút **Create** để hoàn thành quá trình tạo DB Subnet Group.
-![complete.png](/images/3-create-vpc-instance/3.3-create-db-sg/3.3.3.png)
+  ![complete.png](/images/3-create-vpc-instance/3.3-create-db-sg/3.3.3.png)

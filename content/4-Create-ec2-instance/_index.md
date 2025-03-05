@@ -25,6 +25,11 @@ An **Amazon EC2 Instance** is a virtual server (cloud server) running on Amazon 
 - **Basic resources:** Includes 1 vCPU and 1GB RAM, sufficient for running simple Golang applications or testing basic AWS services.
 - **Burstable Performance:** Can boost performance when needed, useful for applications with variable loads.
 
+#### Reasons for Choosing **Ubuntu**:
+- **High Compatibility:** Ubuntu supports many popular software and tools, making it suitable for deploying web applications, Golang, Docker, and Kubernetes.
+- **LTS (Long Term Support):** Ubuntu 24.04 LTS offers long-term support, ensuring system stability over an extended period.
+- **Frequent Updates:** Ubuntu receives regular updates, enhancing security and stability.
+
 #### Creating an EC2 Instance
 
 #### 1. Access AWS Console

@@ -44,4 +44,4 @@ Follow these steps to create a **DB Subnet Group** on AWS:
        ![create-subnet-group.png](/images/3-create-vpc-instance/3.3-create-db-sg/3.3.2.png)
 
 6. Click **Create** to complete the DB Subnet Group setup.
-![complete.png](/images/3-create-vpc-instance/3.3-create-db-sg/3.3.3.png)
+   ![complete.png](/images/3-create-vpc-instance/3.3-create-db-sg/3.3.3.png)

@@ -36,11 +36,11 @@ groups](https://ap-southeast-1.console.aws.amazon.com/vpcconsole/home?region=ap-
 | Custom TCP | 3000 | 0.0.0.0/0 | Run Nodejs and Express |
 
 
-![inbound-rules](/images/3-create-vpc-instance/3.2-create-vpc-sg/3.2.3.png)
+  ![inbound-rules](/images/3-create-vpc-instance/3.2-create-vpc-sg/3.2.3.png)
 
 - Allow all **Outbound** traffic and select **Create security group**
-![outbound-rules](/images/3-create-vpc-instance/3.2-create-vpc-sg/3.2.4.png)
-![public-sg](/images/3-create-vpc-instance/3.2-create-vpc-sg/3.2.5.png)
+  ![outbound-rules](/images/3-create-vpc-instance/3.2-create-vpc-sg/3.2.4.png)
+  ![public-sg](/images/3-create-vpc-instance/3.2-create-vpc-sg/3.2.5.png)
 
 
 #### 2.2. Create Private Security Group (SG Private - DocumentDB)
@@ -57,11 +57,11 @@ groups](https://ap-southeast-1.console.aws.amazon.com/vpcconsole/home?region=ap-
 | ---------- | ---------- | ------------- | ------------------------------ |
 | Custom TCP | 27017 | SG-Public-EC2 | Only EC2 can access DocumentDB |
 
-![inbound-rules](/images/3-create-vpc-instance/3.2-create-vpc-sg/3.2.7.png)
+  ![inbound-rules](/images/3-create-vpc-instance/3.2-create-vpc-sg/3.2.7.png)
 
 - Allow all **Outbound** traffic and select **Create security group**
-![outbound-rules](/images/3-create-vpc-instance/3.2-create-vpc-sg/3.2.4.png)
-![public-sg](/images/3-create-vpc-instance/3.2-create-vpc-sg/3.2.9.png)
+  ![outbound-rules](/images/3-create-vpc-instance/3.2-create-vpc-sg/3.2.4.png)
+  ![public-sg](/images/3-create-vpc-instance/3.2-create-vpc-sg/3.2.9.png)
 
 
 

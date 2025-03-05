@@ -21,6 +21,10 @@ pre = "<b>4. </b>"
 - **Tài nguyên cơ bản:** Bao gồm 1 vCPU và 1GB RAM, đủ để chạy ứng dụng Golang đơn giản hoặc thử nghiệm các dịch vụ AWS cơ bản.  
 - **Burstable Performance:** Có khả năng tăng cường hiệu năng khi cần, rất hữu ích cho các ứng dụng có tải không đều.  
 
+#### Lý do chọn **Ubuntu**:
+- **Tương thích cao:** Ubuntu hỗ trợ nhiều phần mềm và công cụ phổ biến, phù hợp cho việc triển khai các ứng dụng web, Golang, Docker, và Kubernetes.
+- **Hỗ trợ LTS (Long Term Support):** Ubuntu 24.04 LTS có hỗ trợ dài hạn, giúp duy trì hệ thống ổn định trong thời gian dài.
+- **Cập nhật thường xuyên:** Ubuntu có các bản cập nhật định kỳ, đảm bảo bảo mật và tính ổn định.
 
 #### Khởi tạo EC2 Instance
 
