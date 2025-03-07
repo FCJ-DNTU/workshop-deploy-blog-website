@@ -3,7 +3,7 @@ title = "Configure Cloudfront"
 date = 2025
 weight = 8
 chapter = false
-pre = "<b>8. </b>"
+pre = "<b>8 </b>"
 +++
 
 #### Configure Cloudfront

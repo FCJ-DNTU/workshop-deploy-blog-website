@@ -3,7 +3,7 @@ title = "Cấu hình Cloudfront"
 date = 2025
 weight = 8
 chapter = false
-pre = "<b>8. </b>"
+pre = "<b>8 </b>"
 +++
 
 #### Cấu hình Cloudfront
