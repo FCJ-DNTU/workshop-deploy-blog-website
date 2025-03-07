@@ -9,9 +9,9 @@ pre = "<b>5.1 </b>"
 
 #### Tạo S3 bucket
 
-1. Truy cập vào **AWS Management Console**
-    - Tìm S3
-    - Chọn S3
+1. Truy cập vào [AWS Management Console](https://console.aws.amazon.com/)
+    - Tìm **S3**
+    - Chọn **S3**
     ![Search S3](/images/5-create-s3-bucket/5.1-create-s3-bucket/5.1.png)
 
 2. Trong giao diện **S3**
@@ -20,7 +20,7 @@ pre = "<b>5.1 </b>"
     ![Dashboard S3](/images/5-create-s3-bucket/5.1-create-s3-bucket/5.2.png)
 
 3. Trong giao diện **Create bucket**
-    - **Bucket name**, nhập s3-blog-workshop
+    - **Bucket name**, nhập `s3-blog-workshop`
     - Ở phần **Object Ownership**, chọn **ACLs disabled**
     ![Create bucket](/images/5-create-s3-bucket/5.1-create-s3-bucket/5.3.png)
 

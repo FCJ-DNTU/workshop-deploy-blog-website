@@ -8,9 +8,9 @@ pre = "<b>5.1 </b>"
 
 #### Create an S3 bucket
 
-1. Access the **AWS Management Console**
-    - Find S3
-    - Select S3
+1. Access the [AWS Management Console](https://console.aws.amazon.com/)
+    - Find **S3**
+    - Select **S3**
     ![Search S3](/images/5-create-s3-bucket/5.1-create-s3-bucket/5.1.png)
 
 2. In the **S3** interface
@@ -19,7 +19,7 @@ pre = "<b>5.1 </b>"
     ![Dashboard S3](/images/5-create-s3-bucket/5.1-create-s3-bucket/5.2.png)
 
 3. In the **Create bucket** interface
-    - **Bucket name**, enter s3-blog-workshop
+    - **Bucket name**, enter `s3-blog-workshop`
     -  In the Object Ownership section, select **Object Ownership**, select **ACLs disabled**
     ![Create bucket](/images/5-create-s3-bucket/5.1-create-s3-bucket/5.3.png)
 
