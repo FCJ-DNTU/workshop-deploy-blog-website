@@ -29,16 +29,18 @@ Tiếp theo, chúng ta sẽ khởi tạo 2 SGs đại diện cho public subnets 
 
  - Thêm **Inbound Rules** tương ứng cho **public-sg-ec2**
 
-  | Protocol   | Port Range | Source                | Mô tả                           |
-  | ---------- | ---------- | --------------------- | ------------------------------- |
-  | HTTP       | 80         | 0.0.0.0/0             | Cho phép truy cập website       |
-  | HTTPS      | 443        | 0.0.0.0/0             | Hỗ trợ SSL/TLS                  |
-  | SSH        | 22         | 0.0.0.0/0             | Đăng nhập SSH vào EC2           |
-  | Custom TCP | 3000       | 0.0.0.0/0             | Chạy Nodejs and Express mode           |
-  | Custom TCP | 27017      | SG-Private-DocumentDB | Cho phép EC2 kết nối DocumentDB |
+    | Protocol   | Port Range | Source                | Mô tả                           |
+    | ---------- | ---------- | --------------------- | ------------------------------- |
+    | HTTP       | 80         | 0.0.0.0/0             | Cho phép truy cập website       |
+    | HTTPS      | 443        | 0.0.0.0/0             | Hỗ trợ SSL/TLS                  |
+    | SSH        | 22         | 0.0.0.0/0             | Đăng nhập SSH vào EC2           |
+    | Custom TCP | 3000       | 0.0.0.0/0             | Chạy Node.js và Express         |
+    | Custom TCP | 27017      | SG-Private-DocumentDB | Cho phép EC2 kết nối DocumentDB |
+    | Custom TCP | 8800       | 0.0.0.0/0             | Chạy server trên cổng 8800      |
 
 
-  ![inbound-rules](/images/3-create-vpc-instance/3.2-create-vpc-sg/3.2.3.png)
+
+    ![inbound-rules](/images/3-create-vpc-instance/3.2-create-vpc-sg/3.2.3.png)
 
 - Allows all **Outbound** traffic và chọn **Create security group**
   ![outbound-rules](/images/3-create-vpc-instance/3.2-create-vpc-sg/3.2.4.png)

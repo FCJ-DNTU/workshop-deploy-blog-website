@@ -28,12 +28,15 @@ groups](https://ap-southeast-1.console.aws.amazon.com/vpcconsole/home?region=ap-
 
 - Add the following **Inbound Rules** for **public-sg-ec2**
 
-| Protocol | Port Range | Source | Description |
-| -------- | ---------- | ------ | ------------ |
-| HTTP | 80 | 0.0.0.0/0 | Allow website access |
-| HTTPS | 443 | 0.0.0.0/0 | Enable SSL/TLS |
-| SSH | 22 | 0.0.0.0/0 | SSH access to EC2 |
-| Custom TCP | 3000 | 0.0.0.0/0 | Run Nodejs and Express |
+    | Protocol   | Port Range | Source                | Mô tả                           |
+    | ---------- | ---------- | --------------------- | ------------------------------- |
+    | HTTP       | 80         | 0.0.0.0/0             | Cho phép truy cập website       |
+    | HTTPS      | 443        | 0.0.0.0/0             | Hỗ trợ SSL/TLS                  |
+    | SSH        | 22         | 0.0.0.0/0             | Đăng nhập SSH vào EC2           |
+    | Custom TCP | 3000       | 0.0.0.0/0             | Chạy Node.js và Express         |
+    | Custom TCP | 27017      | SG-Private-DocumentDB | Cho phép EC2 kết nối DocumentDB |
+    | Custom TCP | 8800       | 0.0.0.0/0             | Chạy server trên cổng 8800      |
+
 
 
   ![inbound-rules](/images/3-create-vpc-instance/3.2-create-vpc-sg/3.2.3.png)
