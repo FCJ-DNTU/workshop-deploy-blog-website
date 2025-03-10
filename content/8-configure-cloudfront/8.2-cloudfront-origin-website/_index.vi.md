@@ -1,5 +1,5 @@
 +++
-title = "Cloudfront Origin request policy"
+title = "Cấu hình Cloudfront"
 date = 2025
 weight = 2
 chapter = false

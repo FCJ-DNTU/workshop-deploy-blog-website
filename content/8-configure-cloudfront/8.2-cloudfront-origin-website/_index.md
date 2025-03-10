@@ -1,5 +1,5 @@
 +++
-title = "Create CloudFront"
+title = "Configure Cloudfront"
 date = 2025
 weight = 2
 chapter = false
