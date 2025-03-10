@@ -46,7 +46,7 @@ pre = "<b>5.3 </b>"
             }
         ]
     }
-
+    ```
     ![Edit Bucket Policy](/images/5-create-s3-bucket/5.3-enable-static-website-hosting/5.3.6.png)
 
 

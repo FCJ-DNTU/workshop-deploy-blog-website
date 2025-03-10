@@ -124,5 +124,5 @@ navigation menu.
 - Check the EC2 service in **ap-southeast-1**: Access should be allowed.
   ![check_region.png](/images/2-restrict-access/check_region.png)
 
-### **Hoàn thành**
+### **Done**
 
