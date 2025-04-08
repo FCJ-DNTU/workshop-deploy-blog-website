@@ -6,8 +6,7 @@ chapter = false
 pre = "<b>6. </b>"
 +++
 
-
-![aws-documentdb.png](/images/6-create-document/document-db.jpeg)
+![aws-documentdb.png](/images/6-create-documentdb/document-db.jpeg)
 
 #### AWS DocumentDB
 
